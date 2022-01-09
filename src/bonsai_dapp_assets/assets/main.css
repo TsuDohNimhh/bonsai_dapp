@@ -1,37 +1,17 @@
-body {
-    font-family: sans-serif;
-    font-size: 1.5rem;
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Risque&display=swap');
+
+html {
+    font-family: 'Irish Grover', cursive;
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d3a567, #d8ab6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d3a567, #d8ab6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-img {
-    max-width: 50vw;
-    max-height: 25vw;
-    display: block;
-    margin: auto;
+h1 {
+    color: #4b3628;  
 }
 
-form {
+.App {
     display: flex;
     justify-content: center;
-    gap: 0.5em;
-    flex-flow: row wrap;
-    max-width: 40vw;
-    margin: auto;
-    align-items: baseline;
-}
-
-button[type="submit"] {
-    padding: 5px 20px;
-    margin: 10px auto;
-    float: right;
-}
-
-#greeting {
-    margin: 10px auto;
-    padding: 10px 60px;
-    border: 1px solid #222;
-}
-
-#greeting:empty {
-    display: none;
 }
